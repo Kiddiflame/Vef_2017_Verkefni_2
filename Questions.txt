@@ -1,0 +1,51 @@
+1) ECMAScript is a Standard for other scripting languages, such as Javascript
+
+2) It means that you don't need to specify datatypes for variables.
+
+3) There is no inherent difference between the two, no
+
+4) Null is when you set no value to a variable specifically, and undefined is the default value in any variable
+
+5) Both symbols are used to compare values, but for "==" the values don't need to be the same type, while with "===" it does need to be the same type
+
+6) Var creates global variables, while let creates local ones (create code example here)
+
+7) Function helloworld()
+	{	
+	//function decleration
+	}
+
+	var name = function()
+				{
+					//function expression
+				}
+	
+8) Use strict is a function which changes the way ecmascript interprets code, by initiating 'strict mode'
+
+9) It works because the interpreter moves all functions and variables to the top of the code so they can be defined. It doesn't matter whether you call the function before or after writing it in the code.
+
+10)
+
+1. function bar()
+{
+	return 3;
+}
+
+2. function bar()
+{
+	return 8;
+}
+
+3. function foo()
+
+4. alert(foo());
+
+11) When you forget var or let, the variable is still created, but it's scope is undefined until the code finds an instance of the variable being used, in which case, it's scope is then defined.
+
+12) Kóðinn basically keyrir function sem birtir á vefsíðunni "halló heimur" og svigarnir gera kóðanum að innan local, þannig að hann keyrist þegar er komið að honum
+
+13) scope basically means whether a variable is global or local in nature, if it's global, it can be used everywhere, if it's local, it can only be used in the code it's defined in
+
+14) In computer science, a call stack is a stack data structure that stores information about the active subroutines of a computer program. 
+
+	
