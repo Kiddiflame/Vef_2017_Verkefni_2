@@ -19,6 +19,8 @@
 				{
 					//function expression
 				}
+
+	(name) => {//Arrow function}
 	
 8) Use strict is a function which changes the way ecmascript interprets code, by initiating 'strict mode'
 
@@ -26,23 +28,24 @@
 
 10)
 
-1. function bar()
+1. alert(foo()); 
+
+
+2. function foo()
+
+3. function bar()
 {
 	return 3;
 }
 
-2. function bar()
+4. function bar()
 {
 	return 8;
 }
 
-3. function foo()
-
-4. alert(foo());
-
 11) When you forget var or let, the variable is still created, but it's scope is undefined until the code finds an instance of the variable being used, in which case, it's scope is then defined.
 
-12) Kóðinn basically keyrir function sem birtir á vefsíðunni "halló heimur" og svigarnir gera kóðanum að innan local, þannig að hann keyrist þegar er komið að honum
+12) The code in essence just creates a function that prints "Hello world" and the parenthisis makes everything inside them local, so the javascript code doesn't hoist the function as it usually does. It only runs when the code reaches it in the file
 
 13) scope basically means whether a variable is global or local in nature, if it's global, it can be used everywhere, if it's local, it can only be used in the code it's defined in
 
