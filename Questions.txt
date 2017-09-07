@@ -4,7 +4,7 @@
 
 3) There is no inherent difference between the two, no
 
-4) Null is when you set no value to a variable specifically, and undefined is the default value in any variable
+4) Null is when you set no value to a variable specifically, and undefined is exactly the same thing, but with a different name
 
 5) Both symbols are used to compare values, but for "==" the values don't need to be the same type, while with "===" it does need to be the same type
 
