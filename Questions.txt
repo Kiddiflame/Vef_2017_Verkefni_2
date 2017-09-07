@@ -28,21 +28,17 @@
 
 10)
 
-1. alert(foo()); 
-
-
-2. function foo()
-
-3. function bar()
-{
-	return 3;
-}
-
-4. function bar()
-{
-	return 8;
-}
-
+function foo() {
+   function bar() {
+      return 3;
+   }
+   function bar() {
+      return 8;
+   }
+   return bar();
+ }
+ alert(foo()); 
+ 
 11) When you forget var or let, the variable is still created, but it's scope is undefined until the code finds an instance of the variable being used, in which case, it's scope is then defined.
 
 12) The code in essence just creates a function that prints "Hello world" and the parenthisis makes everything inside them local, so the javascript code doesn't hoist the function as it usually does. It only runs when the code reaches it in the file
